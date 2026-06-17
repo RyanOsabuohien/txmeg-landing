@@ -9,6 +9,17 @@ const whatsappLink = createWhatsappLink(
   "Hello Txmeg, I would like to make an order."
 );
 
+const socialLinks = [
+  {
+    name: "Instagram",
+    url: "https://instagram.com/txmeg_",
+  },
+  {
+    name: "TikTok",
+    url: "https://tiktok.com/@txmeg_",
+  },
+];
+
 const products = [
   {
     name: "Male Scrubs",
@@ -334,6 +345,18 @@ function App() {
         </a>
 
         <span>Call or WhatsApp: 09133457900</span>
+        <div className="final-socials">
+          {socialLinks.map((social) => (
+            <a
+              href={social.url}
+              key={social.name}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {social.name}
+            </a>
+          ))}
+        </div>
       </section>
 
       <footer className="site-footer">
@@ -348,6 +371,23 @@ function App() {
           <a href="#custom">Custom Orders</a>
           <a href="#order">How To Order</a>
           <a href={whatsappLink}>WhatsApp</a>
+        </div>
+
+        <div className="footer-socials">
+          <p>Follow Txmeg</p>
+
+          <div>
+            {socialLinks.map((social) => (
+              <a
+                href={social.url}
+                key={social.name}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {social.name}
+              </a>
+            ))}
+          </div>
         </div>
 
         <p className="footer-contact">Call or WhatsApp: 09133457900</p>

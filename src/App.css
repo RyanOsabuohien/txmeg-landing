@@ -810,6 +810,47 @@ button:focus-visible {
   object-position: center;
 }
 
+.footer-socials {
+  display: grid;
+  gap: 8px;
+}
+
+.footer-socials p {
+  color: var(--plum);
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+
+.footer-socials div,
+.final-socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-socials a,
+.final-socials a {
+  color: var(--rose-dark);
+  background: var(--soft-pink);
+  border: 1px solid var(--line);
+  padding: 9px 13px;
+  border-radius: 999px;
+  font-size: 0.84rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.footer-socials a:hover,
+.final-socials a:hover {
+  color: var(--plum);
+  border-color: var(--blush);
+}
+
+.final-socials {
+  justify-content: center;
+  margin-top: 18px;
+}
+
 /* TABLET */
 
 @media (max-width: 900px) {
@@ -1117,5 +1158,14 @@ button:focus-visible {
 
   .about-image {
     height: 340px;
+  }
+
+  .footer-socials div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .final-socials {
+    justify-content: flex-start;
   }
 }
