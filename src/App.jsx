@@ -15,7 +15,7 @@ const products = [
     description: "Comfortable scrubs for male healthcare professionals and students.",
     price: "₦40,000",
     cta: "Order Male Scrubs",
-    image: "/images/male-scrubs.jpeg",
+    image: "/images/male-scrubs.webp",
     message: "Hello Txmeg, I would like to order Male Scrubs.",
   },
   {
@@ -24,7 +24,7 @@ const products = [
     price: "₦40,000",
     size: "Sizes: 8–18",
     cta: "Order Female Scrubs",
-    image: "/images/female-scrubs.jpeg",
+    image: "/images/female-scrubs.webp",
     message: "Hello Txmeg, I would like to order Female Scrubs.",
   },
   {
@@ -32,7 +32,7 @@ const products = [
     description: "Clean, comfortable scrub caps for hospital, clinic, and school use.",
     price: "₦6,500",
     cta: "Order Scrub Caps",
-    image: "/images/scrub-caps.jpeg",
+    image: "/images/scrub-caps.webp",
     message: "Hello Txmeg, I would like to order Scrub Caps.",
   },
   {
@@ -40,7 +40,7 @@ const products = [
     description: "Practical nurse watch badges for everyday clinical routines.",
     price: "₦6,000",
     cta: "Order Watch Badge",
-    image: "/images/nurse-watch-badges.jpeg",
+    image: "/images/nurse-watch-badges.webp",
     message: "Hello Txmeg, I would like to order a Retractable Nurse Watch Badge.",
   },
   {
@@ -48,7 +48,7 @@ const products = [
     description: "Professional lab coats for students and healthcare workers.",
     price: "Available on request",
     cta: "Ask About Lab Coats",
-    image: "/images/lab-coats.jpeg",
+    image: "/images/lab-coats.webp",
     message: "Hello Txmeg, I would like to ask about Lab Coats.",
   },
 ];
@@ -91,7 +91,7 @@ function App() {
     <main className="page">
       <header className="site-header">
         <a href="#hero" className="logo">
-          <img src="/images/txmeg-logo.jpeg" alt="Txmeg logo" />
+          <img src="/images/txmeg-logo.webp" alt="Txmeg logo" />
         </a>
 
         <nav className="nav-links">
@@ -108,7 +108,7 @@ function App() {
       <section className="hero section" id="hero">
         <div className="hero-mobile-bg">
           <img
-            src="/images/hero-medical-wear.jpeg"
+            src="/images/hero-medical-wear.webp"
             alt="Healthcare professional wearing Txmeg medical wear"
           />
         </div>
@@ -144,7 +144,7 @@ function App() {
           <div className="hero-card">
             <div className="hero-image">
               <img
-                src="/images/hero-medical-wear.jpeg"
+                src="/images/hero-medical-wear.webp"
                 alt="Healthcare professional wearing Txmeg medical wear"
               />
             </div>
@@ -246,14 +246,14 @@ function App() {
           <div className="custom-images">
             <div className="custom-image custom-image-large">
               <img
-                src="/images/custom-orders-1.jpeg"
+                src="/images/custom-orders-1.webp"
                 alt="Txmeg customization sample"
               />
             </div>
 
             <div className="custom-image custom-image-small">
               <img
-                src="/images/custom-orders-2.jpeg"
+                src="/images/custom-orders-2.webp"
                 alt="Txmeg custom medical wear sample"
               />
             </div>
@@ -272,7 +272,7 @@ function App() {
 
         <div className="about-content">
           <div className="about-image">
-            <img src="/images/about-txmeg.jpeg" alt="Txmeg medical wear essentials" />
+            <img src="/images/about-txmeg.webp" alt="Txmeg medical wear essentials" />
           </div>
 
           <div className="about-text">
@@ -339,7 +339,7 @@ function App() {
       <footer className="site-footer">
         <div>
           <a href="#hero" className="footer-logo">
-            <img src="/images/txmeg-logo.jpeg" alt="Txmeg logo" />
+            <img src="/images/txmeg-logo.webp" alt="Txmeg logo" />
           </a>
         </div>
 
